@@ -1,0 +1,120 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(80,70,248);
+    background: linear-gradient(356deg, rgba(80,70,248,1) 28%, rgba(32,178,233,1) 58%, rgba(121,232,255,1) 86%);
+}
+
+.todo-app{
+    background-color: white;
+    border-radius:15px;
+    margin: 30px auto;
+    padding: 50px;
+    width:550px;
+}
+
+.todo-app .todo-app-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.todo-app .todo-app-top input{
+    padding: 10px;
+    width: 100%;
+    border-color: lightgray;
+    color: gray;
+    border-radius: 3px;
+}
+
+.todo-app .todo-app-top span{
+    color:#f44336;
+    display: none;
+}
+
+.todo-app .todo-app-top button{
+    width:80%;
+    height: 45px;
+    background-color: rgb(143,73,232);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-weight: 400;
+    font-size: 18px;
+    float: right;
+}
+
+.todo-app-main ul{
+    width: 100%;
+    padding: 0;
+}
+
+
+.todo-app-main ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:rgb(242,242,242);
+    border-radius:5px;
+    width:100%;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.todo-app-main ul li button{
+    display: flex;
+    float: inline-end;
+    margin-left:10px;
+}
+
+.delete {
+    border-radius:5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.complete{
+    border-radius:5px;
+    background-color: #2AE502;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.edit{
+    border-radius:5px;
+    background-color: #e6ff25;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;  
+}
+
+
+.todo-app .todo-app-bottom button{
+    width:30%;
+    height: 37px;
+    background-color: rgb(142,73,232);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-weight: 400;
+    font-size: 18px;
+    float: right;
+}
